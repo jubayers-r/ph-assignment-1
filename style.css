@@ -5,7 +5,7 @@
   font-family: Fira Sans;
 }
 body {
-  margin: 0 206.5px;
+  padding: 0 206.5px;
   background-color: #f5f5f5;
 }
 :root {
@@ -63,7 +63,9 @@ line-height: 67px;
 button {
   font-size: 18px;
 font-weight: 600;
+cursor: pointer;
 }
+
 .banner button {
 margin-top: 24px;
 }
@@ -305,6 +307,23 @@ height: 64px;
     color: white;
     border:0;
   }
+  .donate-cards:hover .donate-hover:not(:hover) {
+    filter: grayscale(1) blur(10px);
+  }
+  button:hover {
+    color: white;
+    background-color: black;
+  }
+  button.done:hover {
+    color: white;
+    background-color: #FADA7A;
+  }
+  button.button:hover {
+    color: white;
+    background-color: #FADA7A;
+  }
+
+  /* === newsletter === */
 .newsletter {
   margin: 80px auto;
   padding: 80px 100px;
