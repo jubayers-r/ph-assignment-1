@@ -47,7 +47,7 @@ body {
   align-items: center;
 }
 .banner .left-sec {
-    margin-right: 64px;
+    margin-right: 200px;
 }
 .banner h3 {
     font-size: 24px;
@@ -112,8 +112,37 @@ line-height: 24px;
   text-align: left;
   margin: 32px 0 80px 0;
 }
+
+.card:hover {
+  border:5px solid red;
+}
+.news-card:hover {
+  border:5px solid yellow;
+}
+.quote:hover {
+  border:5px solid yellow;
+}
 .card-margin {
     margin-left: 24px;
+}
+
+.donate-cards:hover .donate-hover:not(:hover) {
+  filter: grayscale(1) blur(10px);
+}
+.donate button:hover {
+  background-color: var(--greenish);
+}
+button:hover {
+  color: white;
+  background-color: black;
+}
+button.done:hover {
+  color: white;
+  background-color: #FADA7A;
+}
+button.button:hover {
+  color: white;
+  background-color: #FADA7A;
 }
 
 /* ===========================
@@ -307,21 +336,6 @@ height: 64px;
     color: white;
     border:0;
   }
-  .donate-cards:hover .donate-hover:not(:hover) {
-    filter: grayscale(1) blur(10px);
-  }
-  button:hover {
-    color: white;
-    background-color: black;
-  }
-  button.done:hover {
-    color: white;
-    background-color: #FADA7A;
-  }
-  button.button:hover {
-    color: white;
-    background-color: #FADA7A;
-  }
 
   /* === newsletter === */
 .newsletter {
@@ -357,7 +371,7 @@ height: 64px;
     width: 100%;
     padding: 50px 160px;
     background-color: white;
-    margin-left: -210px; /* force left padding */
+    margin-left: -150px; /* force left padding */
   }
   footer hr {
     border: 1px solid rgba(14, 14, 14, 0.1);
