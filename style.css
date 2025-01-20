@@ -2,7 +2,7 @@
 * {
   margin: 0px;
   padding: 0px;
-  font-family: Fira Sans;
+  font-family: "Fira Sans", serif;
 }
 body {
   padding: 0 206.5px;
@@ -40,36 +40,38 @@ body {
 }
 /* === banner === */
 .banner {
-    display: flex;
+  display: flex;
   padding: 80px 60px;
   background-color: var(--greenish);
   border-radius: 24px;
   align-items: center;
 }
 .banner .left-sec {
-    margin-right: 200px;
+  margin-right: 200px;
 }
 .banner h3 {
-    font-size: 24px;
-    font-weight: 500;
-    color: rgba(14, 14, 14, 0.5);
-padding-bottom: 16px;
+  font-size: 24px;
+  font-weight: 500;
+  color: rgba(14, 14, 14, 0.5);
+  padding-bottom: 16px;
 }
 .banner h1 {
-    font-size: 56px;
-font-weight: 700;
-line-height: 67px;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 67px;
 }
 button {
   font-size: 18px;
-font-weight: 600;
-cursor: pointer;
+  font-weight: 600;
+  cursor: pointer;
 }
-
 .banner button {
-margin-top: 24px;
+  margin-top: 24px;
 }
-.banner button, .news-card button, .donate button.done, .newsletter button {
+.banner button,
+.news-card button,
+.donate button.done,
+.newsletter button {
   padding: 21px 34px;
   border-radius: 8px;
   background-color: var(--green);
@@ -77,34 +79,35 @@ margin-top: 24px;
   border: 0;
 }
 /* === pillars cards === */
-
 .pillars h1 {
-    margin-top: 80px;
+  margin-top: 80px;
   font-size: 40px;
   font-weight: 700;
 }
-.pillars-cards, .vision-cards {
+.pillars-cards,
+.vision-cards {
   display: flex;
-justify-content: space-between;
+  justify-content: space-between;
 }
-.pillars .card-heading, .vision .card-heading{
-    margin: 24px 0 12px 0;
+.pillars .card-heading,
+.vision .card-heading {
+  margin: 24px 0 12px 0;
 }
 .heading {
-    color: var(--card-heading);
-    font-size: 20px;
-font-weight: 700;
+  color: var(--card-heading);
+  font-size: 20px;
+  font-weight: 700;
 }
 .para {
-    color: var(--para);
-    font-size: 16px;
-font-weight: 400;
-line-height: 24px;
+  color: var(--para);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
 }
 .pillars .card {
-    width: 294px;
-    background-color: white;
-    border: 1px solid var(--border);
+  width: 294px;
+  background-color: white;
+  border: 1px solid var(--border);
 }
 .card {
   border-radius: 16px;
@@ -112,72 +115,43 @@ line-height: 24px;
   text-align: left;
   margin: 32px 0 80px 0;
 }
-
-.card:hover {
-  border:5px solid red;
-}
-.news-card:hover {
-  border:5px solid yellow;
-}
-.quote:hover {
-  border:5px solid yellow;
-}
 .card-margin {
-    margin-left: 24px;
+  margin-left: 24px;
 }
-
-.donate-cards:hover .donate-hover:not(:hover) {
-  filter: grayscale(1) blur(10px);
-}
-.donate button:hover {
-  background-color: var(--greenish);
-}
-button:hover {
-  color: white;
-  background-color: black;
-}
-button.done:hover {
-  color: white;
-  background-color: #FADA7A;
-}
-button.button:hover {
-  color: white;
-  background-color: #FADA7A;
-}
-
 /* ===========================
  * Main Starts Below
  =========================== */
 /* === Vision Cards === */
-
-.vision h1, .vision .para, .recent-news > .upper-part > .para{
-    margin-bottom: 24px;
+.vision h1,
+.vision .para,
+.recent-news > .upper-part > .para {
+  margin-bottom: 24px;
 }
 .vision-1 {
-background-color: rgba(84, 144, 245, 0.2);
+  background-color: rgba(84, 144, 245, 0.2);
 }
 .vision-2 {
-background-color: var(--greenish);
+  background-color: var(--greenish);
 }
 .vision-3 {
-background-color: rgb(247, 235, 207);
+  background-color: rgb(247, 235, 207);
 }
 .vision button {
-    border-radius: 8px;
-    color: white;
-    font-size: 16px;
-font-weight: 600;
-border: 0px;
-padding: 11px 20px 11px 20px;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  border: 0px;
+  padding: 11px 20px 11px 20px;
 }
 .vision-1 button {
-    background-color: rgb(84, 144, 245);
+  background-color: rgb(84, 144, 245);
 }
 .vision-2 button {
-    background-color: rgb(9, 161, 92);
+  background-color: rgb(9, 161, 92);
 }
 .vision-3 button {
-   background-color: rgb(255, 194, 57);
+  background-color: rgb(255, 194, 57);
 }
 .vision-card {
   width: 390px;
@@ -189,155 +163,150 @@ padding: 11px 20px 11px 20px;
 }
 /* === quote === */
 .quote {
-    padding: 48px 24px;
-border: 1px solid var(--border);
-border-radius: 16px;
-background-image: url("./assets/quote-bg.png");
-background-position: 24px 25px;
-background-repeat: no-repeat;
-margin-bottom: 80px;
+  padding: 48px 24px;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background-image: url("./assets/quote-bg.png");
+  background-position: 24px 25px;
+  background-repeat: no-repeat;
+  margin-bottom: 80px;
 }
 .quote .p1 {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 .quote .p2 {
-    margin-top: 4px;
+  margin-top: 4px;
 }
 /* === Opinion Matters === */
 .opinion-matters h1 {
-    margin-bottom: 24px;
+  margin-bottom: 24px;
 }
 .opinion-matters .table {
-    background-color: white;
-    padding: 32px;
-    border-radius: 16px;
-    margin-bottom: 80px;
+  background-color: white;
+  padding: 32px;
+  border-radius: 16px;
+  margin-bottom: 80px;
 }
 table {
-    width: 100%;
-    border-collapse: collapse;
-  }
-  table, td {
-    border: 1px solid rgba(14, 14, 14, 0.15);
-    padding: 24px 30PX;
-    font-size: 16px;
-font-weight: 600;
-  }
-
-  .table th {
-    background-color: var(--greenish);
-    padding: 24px;
-    font-size: 20px;
-font-weight: 600;
-text-align: left;
-  }
-  .table button {
-    font-size: 16px;
-font-weight: 500;
-padding: 12.5px 16.5px;
-background-color: var(--greenish);
-border-radius: 4px;
-  }
-
-  .table img {
- margin-left: 12px;
-  }
-  /* === Recent news === */
-  .recent-news > .upper-part > .para {
-    margin-top: 24px;
-  }
-  .recent-news .h2 {
-    font-size: 32px;
-font-weight: 700;
-color: var(--card-heading);
-  }
-  .news-card {
-    display: flex;
-    padding: 48px;
-    background-color: white;
-    border-radius: 24px;
-    align-items: center;
-
-  }
-
-  .news-text-part {
-    margin-left: 32px;
-  }
-  .news-text-part > .long{
-    margin: 12px 0 32px 0;
-  }
-  .news-text-part h2{
-    margin-bottom: 12px;
-  }
-  .news-text-part .para {
-    display: flex;
-  }
-  .news-text-part p {
-    margin: 12px 12px 0 0;
-  }
-
-  .news-card .satellite{
-    border-radius: 24px;
-  }
-
-  .news-card button, .donate button.done, .newsletter button {
-    padding: 21px 34px;
-    border-radius: 8px;
-    background-color: var(--green);
-    color: white;
-    border: 0;
-  }
-  .recent-news-2 {
-    margin: 24px 0 80px;
-  }
-  .recent-news-2 .satellite{
-    margin-left: 32px;
-  }
-  /* === Donate === */
-  .donate {
-padding: 0px 104.5px;
-text-align: center;
-  }
-  .donate h1 {
-margin-bottom: 24px;
-  }
-  .donate-card {
-    width: 243.77px;
-    height: 132px;
-    padding: 25px;
-    margin-top: 32px;
-    border-radius: 16px;
-    font-size: 40px;
-font-weight: 700;
-border:1px solid var(--border);
-background-color: white;
-  }
-  .donate-margin-right {
-    margin-right: 24px;
-  }
-
-  .donate input {
-    display: flex;
-    justify-self: center;
-    text-align: center;
-    font-size: 20px;
-font-weight: 400;
-    padding: 80px auto;
-    margin: 32px 124px;
-    border: 0;
-    border-bottom: 1px solid var(--border);
-width: 1032px;
-height: 64px;
-  }
-  .donate button.done {
-    padding: 17px 34px;
-    border-radius: 8px;
-    background-color: var(--green);
-    color: white;
-    border:0;
-  }
-
-  /* === newsletter === */
+  width: 100%;
+  border-collapse: collapse;
+}
+table,
+td {
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  padding: 24px 30px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.table th {
+  background-color: var(--greenish);
+  padding: 24px;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: left;
+}
+.table button {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 12.5px 16.5px;
+  background-color: var(--greenish);
+  border-radius: 4px;
+}
+.table img {
+  margin-left: 12px;
+}
+/* === Recent news === */
+.recent-news > .upper-part > .para {
+  margin-top: 24px;
+}
+.recent-news .h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--card-heading);
+}
+.news-card {
+  display: flex;
+  padding: 48px;
+  background-color: white;
+  border-radius: 24px;
+  align-items: center;
+}
+.news-text-part {
+  margin-left: 32px;
+}
+.news-text-part > .long {
+  margin: 12px 0 32px 0;
+}
+.news-text-part h2 {
+  margin-bottom: 12px;
+}
+.news-text-part .para {
+  display: flex;
+}
+.news-text-part p {
+  margin: 12px 12px 0 0;
+}
+.news-card .satellite {
+  border-radius: 24px;
+}
+.news-card button,
+.donate button.done,
+.newsletter button {
+  padding: 21px 34px;
+  border-radius: 8px;
+  background-color: var(--green);
+  color: white;
+  border: 0;
+}
+.recent-news-2 {
+  margin: 24px 0 80px;
+}
+.recent-news-2 .satellite {
+  margin-left: 32px;
+}
+/* === Donate === */
+.donate {
+  padding: 0px 104.5px;
+  text-align: center;
+}
+.donate h1 {
+  margin-bottom: 24px;
+}
+.donate-card {
+  width: 243.77px;
+  height: 132px;
+  padding: 25px;
+  margin-top: 32px;
+  border-radius: 16px;
+  font-size: 40px;
+  font-weight: 700;
+  border: 1px solid var(--border);
+  background-color: white;
+}
+.donate-margin-right {
+  margin-right: 24px;
+}
+.donate input {
+  display: flex;
+  justify-self: center;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 80px auto;
+  margin: 32px 124px;
+  border: 0;
+  border-bottom: 1px solid var(--border);
+  width: 1032px;
+  height: 64px;
+}
+.donate button.done {
+  padding: 17px 34px;
+  border-radius: 8px;
+  background-color: var(--green);
+  color: white;
+  border: 0;
+}
+/* === newsletter === */
 .newsletter {
   margin: 80px auto;
   padding: 80px 100px;
@@ -346,7 +315,7 @@ height: 64px;
   border-radius: 24px;
   border: 0;
 }
-.newsletter p{
+.newsletter p {
   margin-top: 16px;
 }
 .newsletter form {
@@ -366,22 +335,52 @@ height: 64px;
 /* ===========================
  * Footer Starts Below
  =========================== */
-  footer {
-    text-align: center;
-    width: 100%;
-    padding: 50px 160px;
-    background-color: white;
-    margin-left: -150px; /* force left padding */
-  }
-  footer hr {
-    border: 1px solid rgba(14, 14, 14, 0.1);
-  }
+footer {
+  text-align: center;
+  width: 100%;
+  padding: 50px 160px;
+  background-color: white;
+  margin-left: -150px; /* force left padding */
+}
+footer hr {
+  border: 1px solid rgba(14, 14, 14, 0.1);
+}
 footer h1 {
-padding-bottom: 31.5px;
+  padding-bottom: 31.5px;
 }
 footer .social {
   padding-top: 32.5px;
 }
 footer .social-margin {
   margin: 0 23px;
+}
+/* ===========================
+ * Hover
+ =========================== */
+.card:hover {
+  border: 5px solid red;
+}
+.news-card:hover {
+  border: 5px solid yellow;
+}
+.quote:hover {
+  border: 5px solid yellow;
+}
+.donate-cards:hover .donate-hover:not(:hover) {
+  filter: grayscale(1) blur(10px);
+}
+.donate button:hover {
+  background-color: var(--greenish);
+}
+button:hover {
+  color: white;
+  background-color: black;
+}
+button.done:hover {
+  color: white;
+  background-color: #fada7a;
+}
+button.button:hover {
+  color: white;
+  background-color: #fada7a;
 }
